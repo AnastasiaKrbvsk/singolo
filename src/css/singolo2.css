@@ -1,0 +1,124 @@
+body {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.portfolio-section {
+    width: 1020px;
+    height: 870px;
+    background-color: #2d303a;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-description {
+    width: 700px;
+    margin-top: 69px;
+    margin-left: 40px;
+}
+
+.portfolio-description h2{
+    width: 121px;
+    height: 24px;
+    color: #666d89;
+    font-family: "Lato", black;
+    font-size: 30px;
+    font-weight: 1000;
+    line-height: 17.86px;
+    margin: 0;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-description p{
+    color: #767e9e;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    white-space: nowrap;
+    margin-top: 21px;
+    margin-bottom: 0;
+    letter-spacing: 0.001px;
+}
+
+.portfolio-filter {
+    width: 289px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.portfolio-item {
+    word-wrap: none;
+    border: 1px solid #666d89;
+    border-radius: 6px;
+
+}
+
+.filter-1 {
+    width: 29px;
+    height: 22px;
+}
+
+.filter-1 p {
+    width: 14px;
+    margin: 0 auto;
+}
+
+.filter-2 {
+    width: 78px;
+    height: 22px;
+}
+
+.filter-2 p {
+    width: 64px;
+    margin: 0 auto;
+}
+
+.filter-3 {
+    width: 93px;
+    height: 22px;
+}
+
+.filter-3 p {
+    width: 81px;
+    margin: 0 auto;
+}
+
+.filter-4 {
+    width: 57px;
+    height: 22px;
+}
+
+.filter-4 p {
+    width: 45px;
+    margin: 0 auto;
+}
+
+
+.portfolio-item p {
+    color: #767e9e;
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    white-space: nowrap;
+}
+
+.gallery {
+    position: relative;
+    top: -2px;
+}
+
+.gallery-row {
+    display: flex;
+    width: 940px;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.gallery-item {
+    width: 220px;
+    height: 187px;
+}
