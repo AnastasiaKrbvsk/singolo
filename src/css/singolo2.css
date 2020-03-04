@@ -277,3 +277,14 @@ body {
     height: 14px;
     margin-top: 9px;
 }
+
+.member-social-item:hover {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.member-social-item:not(:hover) {
+    transition: 0.5s;
+}
