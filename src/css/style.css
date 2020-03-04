@@ -186,3 +186,202 @@ body {
     position: relative;
     top: 15px;
 }
+
+.form-section {
+    width: 1020px;
+    height: 648px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+}
+
+.form-section-description {
+    width: 920px;
+    height: 102px;
+    margin: 0 auto;
+    padding-top: 67px;
+}
+
+.form-section-description h2 {
+    width: 162px;
+    height: 26px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 17.86px;
+}
+
+.form-section-description p {
+    width: 939px;
+    height: 47px;
+    color: #f0d8d9;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.form-main {
+    width: 940px;
+    height: 364px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.form {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-info {
+    width: 300px;
+}
+
+.input-name {
+    width: 619px;
+    height: 38px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    color: #f48c8f;
+}
+
+.input-email {
+    width: 619px;
+    height: 38px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    color: #f48c8f;
+}
+
+.input-subject {
+    width: 619px;
+    height: 38px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    color: #f48c8f;
+}
+
+.input-project {
+    width: 619px;
+    height: 202px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    color: #f48c8f;
+}
+
+.contact-info-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-description h3{
+    width: 165px;
+    height: 14px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17.86px;
+}
+
+.contact-info-description p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    font-family: "Lato";
+    color: #f0d8d9;
+}
+
+.contacts-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    font-family: "Lato";
+    color: #f0d8d9;
+}
+
+.contacts svg {
+    margin-right: 5px;
+    color: #f0d8d9;
+}
+
+.footer {
+    width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+}
+
+.footer-wrapper {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 152px;
+    height: 32px;
+}
+
+.social-item {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #666d89;
+    text-align: center;
+    color: #666d89;
+}
+
+.copyright {
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    color: #666d89;
+}
+
+.social-item:hover {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.social-item:not(:hover) {
+    transition: 0.5s;
+}
