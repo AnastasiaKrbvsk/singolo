@@ -140,13 +140,12 @@ body {
     height: 728px;
     background-color: #f2f2f2;
     border-bottom: 6px solid #ffffff;
-    margin: 0;
 }
 
 .about-us-description {
     width: 940px;
     margin-left: 40px;
-    
+    padding-top: 68px;
     display: flex;
     flex-direction: column;
 }
@@ -157,21 +156,31 @@ body {
     color: #666d89;
     font-family: "Lato";
     font-size: 30px;
-    font-weight: 1000;
+    font-weight: 900;
     line-height: 17.86px;
     margin: 0;
 }
 
-.about-us-description p {
+.about-us-paragraph {
     width: 939px;
-    height: 47px;
     color: #767e9e;
     font-family: "Lato";
     font-size: 17px;
     font-weight: 300;
     line-height: 30px;
-    letter-spacing: 0.2px;
-    margin-top: 33px;
+    letter-spacing: 0.4px;
+    margin-top: 23px;
+    white-space: nowrap;
+}
+.about-us-paragraph-2 {
+    width: 939px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.013em;
+    margin-top: -17px;
 }
 
 .members-wrapper {
@@ -179,6 +188,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 27px;
 }
 .member {
     width: 300px;
@@ -186,10 +196,15 @@ body {
     flex-direction: column;
 }
 
+.member-2 {
+    margin-left: -1.5px;
+}
+
 .member-socials {
     display: flex;
     width: 153px;
     justify-content: space-between;
+    margin-top: 21px;
 }
 
 .member h3 {
@@ -200,6 +215,19 @@ body {
     font-weight: 800;
     line-height: 17.86px;
     white-space: nowrap;
+    margin-top: 13px;
+}
+
+.member-1 h3 {
+    letter-spacing: 0.0001em;
+}
+
+.member-2 h3 {
+    letter-spacing: 0.009px;
+}
+
+.member-3 h3 { 
+    letter-spacing: 0.1px;
 }
 
 .member p {
@@ -210,6 +238,8 @@ body {
     font-size: 12px;
     font-weight: 400;
     line-height: 21.56px;
+    letter-spacing: 0.01em;
+    margin-top: -5px;
 }
 
 .member-social-item {
@@ -217,4 +247,33 @@ body {
     height: 32px;
     border: 1px solid #666d89;
     border-radius: 50%;
+    text-align: center;
+}
+
+.member-social-item svg{
+    color: #666d89;
+}
+
+.svg-1 {
+    width: 8px;
+    height: 14px;
+    margin-top: 9px;
+}
+
+.svg-2 {
+    width: 14px;
+    height: 14px;
+    margin-top: 9px;
+}
+
+.svg-3 {
+    width: 14px;
+    height: 12px;
+    margin-top: 10px;
+}
+
+.svg-4 {
+    width: 14px;
+    height: 14px;
+    margin-top: 9px;
 }
