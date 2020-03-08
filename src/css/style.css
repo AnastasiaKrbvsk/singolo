@@ -195,30 +195,31 @@ body {
 }
 
 .form-section-description {
-    width: 920px;
+    width: 940px;
     height: 102px;
-    margin: 0 auto;
+    margin-left: 40px;
     padding-top: 67px;
 }
 
 .form-section-description h2 {
-    width: 162px;
     height: 26px;
     color: #f0d8d9;
     font-family: "Lato";
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 1000;
     line-height: 17.86px;
+    margin: 0;
 }
 
 .form-section-description p {
-    width: 939px;
+    width: 950px;
     height: 47px;
     color: #f0d8d9;
     font-family: Lato;
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
+    letter-spacing: 0.004px;
 }
 
 .form-main {
@@ -227,7 +228,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 88px;
+    margin-top: 48px;
 }
 
 .form {
@@ -303,13 +304,14 @@ body {
 }
 
 .contact-info-description h3{
-    width: 165px;
     height: 14px;
     color: #f0d8d9;
     font-family: "Lato";
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 17.86px;
+    margin: 0;
+    letter-spacing: 0.2px;
 }
 
 .contact-info-description p {
@@ -318,12 +320,17 @@ body {
     line-height: 21.56px;
     font-family: "Lato";
     color: #f0d8d9;
+    letter-spacing: 0.1px;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
 .contacts-all {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 12px;
 
     font-size: 12px;
     font-weight: 400;
@@ -373,6 +380,8 @@ body {
     font-weight: 400;
     line-height: 21.56px;
     color: #666d89;
+    margin-top: 4px;
+    margin-left: 3px;
 }
 
 .social-item:hover {
