@@ -355,6 +355,20 @@ body {
     color: #f0d8d9;
 }
 
+.contacts {
+    display: flex;
+}
+.contact-logo  {
+    width: 13px;
+    height: 11px;
+}
+.contact-logo svg {
+    margin: auto;
+}
+.contacts p {
+    margin: 0;
+    margin-left: 10px;
+}
 .footer {
     width: 1020px;
     height: 76px;
